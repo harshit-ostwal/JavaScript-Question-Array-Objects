@@ -2,7 +2,6 @@
 
 ---
 
-
 1. Write a function that uses `forEach()` to calculate the total sum of an array.
 
 2. Write a function that uses `map()` to return a new array where each number is squared.
