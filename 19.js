@@ -12,10 +12,11 @@ const obj = {
 function checkProperty(obj, key) {
   if (obj.hasOwnProperty(key)) {
     console.log("Key exists in the object.");
+    return obj[key];
   } else {
     console.log("Key does not exist in the object.");
+    return null;
   }
-  return obj;
 }
 
 console.log("Original Object : ", obj);
